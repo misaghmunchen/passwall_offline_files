@@ -1,0 +1,851 @@
+Package: ca-bundle
+Version: 20241223-r1
+Architecture: all
+Installed-Size: 235520
+Depends: libc
+Provides: ca-certs
+Section: base
+Source: feeds/base/package/system/ca-certificates
+License: GPL-2.0-or-later MPL-2.0
+Description: System CA certificates as a bundle
+Filename: ca-bundle_20241223-r1_all.ipk
+Size: 132984
+MD5Sum: d42cfd088b4122af9cf0cdbc529c2b3e
+SHA256sum: a67ac58d2680ba091be5af428540192dbfcf08ae7435c491f1e87f4833310c9d
+
+Package: ca-certificates
+Version: 20241223-r1
+Architecture: all
+Installed-Size: 419840
+Depends: libc
+Provides: ca-certs
+Section: base
+Source: feeds/base/package/system/ca-certificates
+License: GPL-2.0-or-later MPL-2.0
+Description: System CA certificates
+Filename: ca-certificates_20241223-r1_all.ipk
+Size: 144438
+MD5Sum: 5a056dbd305c939cc7a68788013e1326
+SHA256sum: c3c47cc15460836b279246825553159e220846a57f9c67236fa8e32bd8ecb3b1
+
+Package: chinadns-ng
+Version: 2025.06.20-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: sbwml <admin@cooluc.com>
+Installed-Size: 522240
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/chinadns-ng
+License: AGPL-3.0-only
+Description: ChinaDNS next generation, refactoring with epoll and ipset.
+Filename: chinadns-ng_2025.06.20-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 268904
+MD5Sum: d4355ca638d26fb73b3f332d0451bc4c
+SHA256sum: bf9bfa47eb459e6d571a301598c9c8bbf7f2647081edbfb348eedf8da79f482a
+
+Package: coreutils-base64
+Version: 9.7-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Installed-Size: 40960
+Depends: libc, coreutils
+Section: utils
+Source: feeds/packages/utils/coreutils
+License: GPL-3.0-or-later
+Description: Full version of standard GNU base64 utility.
+Filename: coreutils-base64_9.7-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15700
+MD5Sum: f4871396b1ffacd28a5392d9a8bc8ae6
+SHA256sum: 53244ea1bcf8c7b2a2b345d5974ad0d15c5093ca0d98d112c7acb001992e9e93
+
+Package: coreutils-nohup
+Version: 9.7-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Installed-Size: 30720
+Depends: libc, coreutils
+Section: utils
+Source: feeds/packages/utils/coreutils
+License: GPL-3.0-or-later
+Description: Full version of standard GNU nohup utility.
+Filename: coreutils-nohup_9.7-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13528
+MD5Sum: 83a7811248b1e4b748acd4f315c0a16c
+SHA256sum: 3a66da772d106a11c420a49c214d789e15118edd6d02ff69e1db0a4083d287ab
+
+Package: coreutils
+Version: 9.7-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Installed-Size: 10240
+Depends: libc
+Section: utils
+Source: feeds/packages/utils/coreutils
+License: GPL-3.0-or-later
+Description: Full versions of standard GNU utilities. If an equivalent Busybox applet is
+available, you should consider compiling that instead as Busybox applets are
+usually smaller, at the expense of reduced functionality.
+Filename: coreutils_9.7-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 984
+MD5Sum: ccc9cde59108c14d7ba980c23b719bd4
+SHA256sum: 9124918d9c30ad7ae1129418e10108d151d0e3ddc2c46059ec0776b90283a107
+
+Package: curl
+Version: 8.12.1-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
+Installed-Size: 143360
+Depends: libc, libcurl4
+Section: net
+Source: feeds/packages/net/curl
+License: MIT
+Description: A client-side URL transfer utility
+Filename: curl_8.12.1-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 67346
+MD5Sum: 5ce6b9e6d7565ca2d9e41bf1b5d8191f
+SHA256sum: 86546dfa74a98a61fe361f456408d366e5af567a896bdaee64e06156f58e6ba0
+
+Package: dns2socks
+Version: 2.1-r2
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: ghostmaker
+Installed-Size: 30720
+Depends: libc, libpthread
+Section: net
+Source: feeds/passwall_packages/dns2socks
+License: BSD-3-Clause
+Description: This is a command line utility to resolve DNS requests via
+a SOCKS tunnel like Tor or a HTTP proxy.
+Filename: dns2socks_2.1-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11526
+MD5Sum: 9f7e1157866fa0bf8ae283dbad401038
+SHA256sum: 5fa3e936de3e867485ef69d2f7721f26854a479007595f1dfb10018d8fc275b6
+
+Package: dnsmasq-full
+Version: 2.90-r4
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 419840
+Depends: libc, libubus20250102, libnettle8, libnetfilter-conntrack3, nftables-json
+Provides: dnsmasq
+Section: net
+Source: feeds/base/package/network/services/dnsmasq
+License: GPL-2.0
+Description: It is intended to provide coupled DNS and DHCP service to a LAN.
+This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
+and nftset, Conntrack support & NO_ID enabled by default.
+Filename: dnsmasq-full_2.90-r4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 199918
+MD5Sum: f38b715559a9e7d8222dde87f3b7038a
+SHA256sum: bd27ade82f14243482990d9a4a3860a8dd1f79e0bc74f243285b71c82f3db92a
+
+Package: geoview
+Version: 0.1.10-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: snowie2000
+Installed-Size: 5877760
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/geoview
+License: Apache-2.0
+Description: geoview is a handy tool to extract useful information from geo* files.
+Filename: geoview_0.1.10-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2383652
+MD5Sum: 00348ba40b79c65e3993c49d38bf1d5a
+SHA256sum: eb83885002b0e7215c9a54c4d1f3c4533a08fa9b29718f50b76e3dacf630f3c1
+
+Package: hysteria
+Version: 2.6.2-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 18350080
+Depends: libc, ca-bundle
+Section: net
+Source: feeds/passwall_packages/hysteria
+License: MIT
+Description: Hysteria is a feature-packed network utility optimized for networks
+of poor quality (e.g. satellite connections, congested public Wi-Fi,
+connecting from China to servers abroad) powered by a custom version
+of QUIC protocol.
+Filename: hysteria_2.6.2-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6983450
+MD5Sum: 73953c703dc01d931bdd25b5dd515766
+SHA256sum: 9e64775fbe6888cc5dff96c61523e77640b36b8c02af4e7801c5ac0083693a56
+
+Package: ip-full
+Version: 6.11.0-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Russell Senior <russell@personaltelco.net>
+Installed-Size: 481280
+Depends: libc, libnl-tiny1, libbpf1, libmnl0
+Provides: ip
+Section: net
+Source: feeds/base/package/network/utils/iproute2
+License: GPL-2.0
+Description: Routing control utility (full)
+Filename: ip-full_6.11.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 220662
+MD5Sum: bcdfd3b364e53a0a1eaab59eafdc6093
+SHA256sum: ae5fb537ee702110c6ab368ff6e1fa3445e6891453eaa71086f8e97b69e4ea32
+
+Package: ipt2socks
+Version: 1.1.4-r3
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 71680
+Depends: libc, libpthread
+Section: net
+Source: feeds/passwall_packages/ipt2socks
+License: AGPL-3.0
+Description: Utility for converting iptables (redirect/tproxy) to socks5.
+Filename: ipt2socks_1.1.4-r3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26366
+MD5Sum: 668db4ab9f5ed32ac330055990c6c67a
+SHA256sum: ea12f8bb64cc434c96ba3de1dbf600bf2829e0958a7696e1f3d512fb5614e3a4
+
+Package: libcurl4
+Version: 8.12.1-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
+Installed-Size: 440320
+Depends: libc, libmbedtls21, libnghttp2-14, ca-bundle
+Provides: libcurl
+Section: libs
+Source: feeds/packages/net/curl
+License: MIT
+Description: A client-side URL transfer library
+Filename: libcurl4_8.12.1-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 219906
+MD5Sum: f6f9b5fd5f2c30a1d5e7dd6ff2df34b3
+SHA256sum: f566cc7d30681ec7117e2acf16274f18fa360440a0be2006848d9506cfc3c77c
+
+Package: libubus-lua
+Version: 2025.07.02~5952b48e-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Installed-Size: 20480
+Depends: libc, libubus20250102, liblua5.1.5
+Section: libs
+Source: feeds/base/package/system/ubus
+License: LGPL-2.1
+Description: Lua binding for the OpenWrt RPC client
+Filename: libubus-lua_2025.07.02~5952b48e-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6934
+MD5Sum: 536f768401986d969334afaaeedfee00
+SHA256sum: 7d9a3fca2edac3d5758e3b69962de40fb71b34df0bcb9966adc3f4ed8580dbe5
+
+Package: libuci-lua
+Version: 2025.01.20~16ff0bad-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Installed-Size: 20480
+Depends: libc, libuci20250120, liblua5.1.5
+Section: libs
+Source: feeds/base/package/system/uci
+License: LGPL-2.1
+Description: Lua plugin for UCI
+Filename: libuci-lua_2025.01.20~16ff0bad-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6466
+MD5Sum: d65a03dc946c10cf056b22c459fdead9
+SHA256sum: d20ed0eef84d6c38148d44f2e77cf05f8b5c6cb7f5338f592eb02e149ddcf560
+
+Package: luci-app-passwall2
+Version: 25.8.9-r1
+Architecture: all
+Maintainer: OpenWrt LuCI community
+Installed-Size: 1034240
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, geoview, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
+Section: luci
+Source: feeds/passwall2/luci-app-passwall2
+Description: LuCI support for PassWall 2
+Filename: luci-app-passwall2_25.8.9-r1_all.ipk
+Size: 264800
+MD5Sum: 2bfe3fbb7b4f133d6606bb2736b547f1
+SHA256sum: 0e25ec8b33a79d25fc7b6e587536de01f3bf7b119d0cbb44413215b335c2bc69
+
+Package: luci-compat
+Version: 25.222.74622~4d26a4d
+Architecture: all
+Maintainer: OpenWrt LuCI community
+Installed-Size: 245760
+Depends: libc, luci-lua-runtime, luci-lua-runtime
+Section: luci
+Source: feeds/luci/modules/luci-compat
+License: Apache-2.0
+Description: LuCI compatibility libraries
+Filename: luci-compat_25.222.74622~4d26a4d_all.ipk
+Size: 46430
+MD5Sum: 54c97c346e27b5b36d54c61b92025a86
+SHA256sum: 27bb5f2b0c0d1a6e87775b73aae6eba95db0ec51f59ed005ba5b0171a317cfa6
+
+Package: luci-compat
+Version: 25.231.61534~b47fce0
+Architecture: all
+Maintainer: OpenWrt LuCI community
+Installed-Size: 245760
+Depends: libc, luci-lua-runtime, luci-lua-runtime
+Section: luci
+Source: feeds/luci/modules/luci-compat
+License: Apache-2.0
+Description: LuCI compatibility libraries
+Filename: luci-compat_25.231.61534~b47fce0_all.ipk
+Size: 46430
+MD5Sum: 702ec2d6a8ccc2bd21013687cf0c094c
+SHA256sum: aa77e379d283c4f36d97a7349915860be76bedaad2de2818061f1dabf523b7e6
+
+Package: luci-i18n-passwall2-zh-cn
+Version: 25.220.73539~ea9c880
+Architecture: all
+Installed-Size: 40960
+Depends: libc, luci-app-passwall2
+Section: luci
+Source: feeds/passwall2/luci-app-passwall2
+Description: Translation for luci-app-passwall2 - 简体中文 (Chinese Simplified)
+Filename: luci-i18n-passwall2-zh-cn_25.220.73539~ea9c880_all.ipk
+Size: 15342
+MD5Sum: 40b3927a6ac949cd71a095185de90dfe
+SHA256sum: 782b2416ecb97f8ba4be0c6c597787b2a14f1e611098a83a64139dd2e2e8d1bf
+
+Package: luci-lib-base
+Version: 25.231.61534~b47fce0
+Architecture: all
+Maintainer: OpenWrt LuCI community
+Installed-Size: 40960
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, liblucihttp-lua
+Section: luci
+Source: feeds/luci/libs/luci-lib-base
+License: Apache-2.0
+Description: basic libraries for luci
+Filename: luci-lib-base_25.231.61534~b47fce0_all.ipk
+Size: 10492
+MD5Sum: 654ed2930edd13f954e9e3c166add849
+SHA256sum: e5c4dcc0f1dd9b42d514342830bac7aa89cffbff0bfbffa1907239948939826a
+
+Package: luci-lib-ip
+Version: 25.231.61534~b47fce0
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: OpenWrt LuCI community
+Installed-Size: 30720
+Depends: libc, liblua5.1.5, libnl-tiny1
+Section: luci
+Source: feeds/luci/libs/luci-lib-ip
+License: Apache-2.0
+Description: Lua library for IP calculation and routing information
+Filename: luci-lib-ip_25.231.61534~b47fce0_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11448
+MD5Sum: 1337b2409358247502c86d3d46eaeba8
+SHA256sum: c73c2c2b02e26d136b22770a646d60be43326d3f098e5ac4008a2d3f6b68d9e6
+
+Package: luci-lib-jsonc
+Version: 25.231.61534~b47fce0
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: OpenWrt LuCI community
+Installed-Size: 20480
+Depends: libc, liblua5.1.5, libjson-c5
+Section: luci
+Source: feeds/luci/libs/luci-lib-jsonc
+License: Apache-2.0
+Description: Lua binding for JSON-C
+Filename: luci-lib-jsonc_25.231.61534~b47fce0_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4636
+MD5Sum: eeac3b6981ec828855f9ca6287f33917
+SHA256sum: 6c84ab3faad2607d20b9774e6f01ce5552daa4f4c80548c2646dc6a7062b6108
+
+Package: luci-lib-nixio
+Version: 25.231.61534~b47fce0
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: OpenWrt LuCI community
+Installed-Size: 81920
+Depends: libc, liblua5.1.5
+Section: luci
+Source: feeds/luci/libs/luci-lib-nixio
+License: Apache-2.0
+Description: NIXIO POSIX library
+Filename: luci-lib-nixio_25.231.61534~b47fce0_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30314
+MD5Sum: 29765c8fde7dc3ab266037cd789b2482
+SHA256sum: e1968b79ad9d465f49b7433bb1bd872335057caf450834d19e77e96e60af6a6d
+
+Package: luci-lua-runtime
+Version: 25.231.61534~b47fce0
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: OpenWrt LuCI community
+Installed-Size: 112640
+Depends: libc, luci-base, lua, luci-lib-base, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, libubus-lua, liblucihttp-lua, ucode-mod-lua
+Section: luci
+Source: feeds/luci/modules/luci-lua-runtime
+License: Apache-2.0
+Description: LuCI Lua runtime libraries
+Filename: luci-lua-runtime_25.231.61534~b47fce0_arm_cortex-a7_neon-vfpv4.ipk
+Size: 29314
+MD5Sum: 5ce241c97f5336338610bf6c599cf0c2
+SHA256sum: ca4be05e37c46eb7a996416cc168c67e5b16975a0ffea3fd99385e22ff2563c4
+
+Package: microsocks
+Version: 1.0.5-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: lean
+Installed-Size: 20480
+Depends: libc, libpthread
+Section: net
+Source: feeds/passwall_packages/microsocks
+License: MIT
+Description: A SOCKS5 service that you can run on your remote boxes to tunnel connections
+through them, if for some reason SSH doesn't cut it for you.
+Filename: microsocks_1.0.5-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6336
+MD5Sum: 78e10beb4545656aadb8e80215199414
+SHA256sum: de2cb9af8b6634348a5d1f0596645de3098bd161abcc00afa9bcaa6803041032
+
+Package: naiveproxy
+Version: 138.0.7204.35-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: sbwml <admin@cooluc.com>
+Installed-Size: 5181440
+Depends: libc, libatomic1
+Section: net
+Source: feeds/passwall_packages/naiveproxy
+License: BSD 3-Clause
+Description: NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+censorship resistance and low detectability. Reusing Chrome's stack also
+ensures best practices in performance and security.
+Filename: naiveproxy_138.0.7204.35-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3281086
+MD5Sum: e6a2e90ae00165a573e02e618906e3b6
+SHA256sum: 3aa23de5a756a31256b2f7779d1b7527833650373b39cc99943eb192c9055d5f
+
+Package: resolveip
+Version: 2
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Installed-Size: 10240
+Depends: libc
+Section: utils
+Source: feeds/base/package/network/utils/resolveip
+License: GPL-2.0
+Description: This package contains the small resolveip utility which
+can be used by scripts to turn host names into numeric
+IP addresses. It supports IPv4 and IPv6 resolving and
+has a configurable timeout to guarantee a certain maximum
+runtime in case of slow or defunct DNS servers.
+Filename: resolveip_2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2460
+MD5Sum: 89e171b1cda780f7a1bad3226fc6d787
+SHA256sum: 44cff9016ea67eef046e13022ee9c3ac1deeaec7488637e7cb22da157f866f9f
+
+Package: shadow-tls
+Version: 0.2.25-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 2631680
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/shadow-tls
+License: MIT
+Description: A proxy to expose real tls handshake to the firewall.
+It works like trojan but it does not require signing certificate.
+The firewall will see real tls handshake with valid certificate
+that you choose.
+Filename: shadow-tls_0.2.25-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1246818
+MD5Sum: cc0f638ba3dd9b5903620a07c19208e0
+SHA256sum: 92495102ad225783efd47d7b99ae26b53f345244016bc7fefd2dd3b39c40b4ae
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-r13
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Installed-Size: 112640
+Depends: libc, libev, libmbedtls21, libpthread, libsodium, libpcre2
+Section: net
+Source: feeds/passwall_packages/shadowsocks-libev
+License: GPL-3.0-or-later
+Description: shadowsocks-libev ss-local
+Filename: shadowsocks-libev-ss-local_3.3.5-r13_arm_cortex-a7_neon-vfpv4.ipk
+Size: 49844
+MD5Sum: 58b37fd40e7ddb3bca589df604f5142c
+SHA256sum: c02a5dadc2f0726a273c3ff9268f653e21b21900ab9f34ae0614fb1e346d8bac
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-r13
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Installed-Size: 102400
+Depends: libc, libev, libmbedtls21, libpthread, libsodium
+Section: net
+Source: feeds/passwall_packages/shadowsocks-libev
+License: GPL-3.0-or-later
+Description: shadowsocks-libev ss-redir
+Filename: shadowsocks-libev-ss-redir_3.3.5-r13_arm_cortex-a7_neon-vfpv4.ipk
+Size: 45380
+MD5Sum: 563e2962a814cefc79f8401ab0b74be6
+SHA256sum: 2bfb9ce9287aba5a3cbda206a9744ae2bee15d73978982421aa46e33f3bbae3e
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-r13
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Installed-Size: 122880
+Depends: libc, libev, libmbedtls21, libpthread, libsodium, libcares, libpcre2
+Section: net
+Source: feeds/passwall_packages/shadowsocks-libev
+License: GPL-3.0-or-later
+Description: shadowsocks-libev ss-server
+Filename: shadowsocks-libev-ss-server_3.3.5-r13_arm_cortex-a7_neon-vfpv4.ipk
+Size: 54486
+MD5Sum: e4c54281bc684ba28432ae0cb673cee7
+SHA256sum: a257c993a519b6ce1189c0e4f2ee85f0774979667627dc4e9478faf802c866d6
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.3.5-r13
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Installed-Size: 102400
+Depends: libc, libev, libmbedtls21, libpthread, libsodium
+Section: net
+Source: feeds/passwall_packages/shadowsocks-libev
+License: GPL-3.0-or-later
+Description: shadowsocks-libev ss-tunnel
+Filename: shadowsocks-libev-ss-tunnel_3.3.5-r13_arm_cortex-a7_neon-vfpv4.ipk
+Size: 43162
+MD5Sum: d95c0f5e808f9e6f494f640829797909
+SHA256sum: d1c5927e5a8213013ddca47907e3b8ae953593ee3d066f53e99aff15d5877153
+
+Package: shadowsocks-rust-sslocal
+Version: 1.23.5-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 7290880
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/shadowsocks-rust
+License: MIT
+Description: shadowsocks-rust sslocal
+Filename: shadowsocks-rust-sslocal_1.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3383698
+MD5Sum: 67e8294e443d29b452987baae0864cd8
+SHA256sum: 53d7a8c966b4d31d958fa958c9f3a19e7d33fafe22eeed6c0ada9d55c870e22c
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.23.5-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 5888000
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/shadowsocks-rust
+License: MIT
+Description: shadowsocks-rust ssmanager
+Filename: shadowsocks-rust-ssmanager_1.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2729002
+MD5Sum: e50da81e4630122f0191417ef8f5cd6b
+SHA256sum: 566517f612cb8ba3e1bffde396bf17d4deb5bbd209a5611808d9422d07f419f1
+
+Package: shadowsocks-rust-ssserver
+Version: 1.23.5-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 5754880
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/shadowsocks-rust
+License: MIT
+Description: shadowsocks-rust ssserver
+Filename: shadowsocks-rust-ssserver_1.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2659378
+MD5Sum: 426bc00ec194d5dda5fd157f67a04edc
+SHA256sum: 7fea42516c729c22cfe3706d5fc6829ee4595f5cbabfd7dd6ff3c466959774a2
+
+Package: shadowsocks-rust-ssservice
+Version: 1.23.5-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 7720960
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/shadowsocks-rust
+License: MIT
+Description: shadowsocks-rust ssservice
+Filename: shadowsocks-rust-ssservice_1.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3588624
+MD5Sum: 99b6e7114aca75dc3ca64fadd4e209ca
+SHA256sum: d0342a60dd77c11ac4111e59de80869dda80e803a0594c9f8daaf608a675a90f
+
+Package: shadowsocks-rust-ssurl
+Version: 1.23.5-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 2160640
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/shadowsocks-rust
+License: MIT
+Description: shadowsocks-rust ssurl
+Filename: shadowsocks-rust-ssurl_1.23.5-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 961746
+MD5Sum: 90d07e8e2279756aa9fe72431c156456
+SHA256sum: 21d23b12665f68e8f0de1fa707c87040fd308fc916432440de5a28bab7ac7d2a
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-r11
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10240
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Section: net
+Source: feeds/passwall_packages/shadowsocksr-libev
+License: GPL-3.0
+Description: shadowsocksr-libev ssr-check
+Filename: shadowsocksr-libev-ssr-check_2.5.6-r11_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3008
+MD5Sum: 847376b43121e7c24ebc56b646596a56
+SHA256sum: bef112de75465f0dc4904394c96c651d3cbc5bdce70d8b0c7aa8528840aaf33e
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-r11
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 133120
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Section: net
+Source: feeds/passwall_packages/shadowsocksr-libev
+License: GPL-3.0
+Description: shadowsocksr-libev ssr-local
+Filename: shadowsocksr-libev-ssr-local_2.5.6-r11_arm_cortex-a7_neon-vfpv4.ipk
+Size: 60264
+MD5Sum: a9cb7027162702314a3ccfd37897c4e8
+SHA256sum: ab27c61d64687476f25b0e533e8241f5f36dd5b9e3b6ecfbd50339f0f6ccb7c5
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-r11
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10240
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Section: net
+Source: feeds/passwall_packages/shadowsocksr-libev
+License: GPL-3.0
+Description: shadowsocksr-libev ssr-nat
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-r11_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2990
+MD5Sum: 4977d1c64365ef5dcc1b7f060ab5cc21
+SHA256sum: 8e95186e79e9778287e96849797443ed80ef3564e1040afc384e8ca5ea9f043e
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-r11
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 122880
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Section: net
+Source: feeds/passwall_packages/shadowsocksr-libev
+License: GPL-3.0
+Description: shadowsocksr-libev ssr-redir
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-r11_arm_cortex-a7_neon-vfpv4.ipk
+Size: 54562
+MD5Sum: 80cbe731fef50861a5ac9962a7faf5a4
+SHA256sum: ce520ce02cfd6db4b38582895016b74599d1e940263dd2f53932b19ec9e6bb83
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-r11
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 143360
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Section: net
+Source: feeds/passwall_packages/shadowsocksr-libev
+License: GPL-3.0
+Description: shadowsocksr-libev ssr-server
+Filename: shadowsocksr-libev-ssr-server_2.5.6-r11_arm_cortex-a7_neon-vfpv4.ipk
+Size: 63892
+MD5Sum: 0f57d5a628397fdf5aeb12c44d708d64
+SHA256sum: da671f66d4dd64cb08124bdc01d9e8aed07f4941783ee24b9ff1b1a538d51bc0
+
+Package: simple-obfs-client
+Version: 0.0.5-r3
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Jian Chang <aa65535@live.com>
+Installed-Size: 61440
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Section: net
+Source: feeds/passwall_packages/simple-obfs
+License: GPL-3.0-or-later
+Description: Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+Filename: simple-obfs-client_0.0.5-r3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 28080
+MD5Sum: 15e4863232d9eef93f2f261ba66631e1
+SHA256sum: 240cb0b93424d4792eb136cc55bae196d00f0e4ca0a80d9fa47019cef6654b29
+
+Package: simple-obfs-server
+Version: 0.0.5-r3
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Jian Chang <aa65535@live.com>
+Installed-Size: 71680
+Depends: libc, libpthread, libev
+Section: net
+Source: feeds/passwall_packages/simple-obfs
+License: GPL-3.0-or-later
+Description: Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+Filename: simple-obfs-server_0.0.5-r3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30464
+MD5Sum: a8572f7d52dbeed96f28482b9ca7113d
+SHA256sum: 8555f0e0eeed7efe14bfb2fefd016d80f3cf924c17a7783cf842c3c9e277a049
+
+Package: sing-box
+Version: 1.12.1-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 40898560
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+Section: net
+Source: feeds/passwall_packages/sing-box
+License: GPL-3.0-or-later
+Description: Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
+ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+Filename: sing-box_1.12.1-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15214904
+MD5Sum: 6a7bfd5d7f5e927f2926586a43a50b4d
+SHA256sum: 881b3ffed98c832f390cb31e57285f168f3ba2c2cd5e89e5f983ad00dd34b87b
+
+Package: tcping
+Version: 0.3-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20480
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/tcping
+License: GPL-2.0-only
+Description: tcping measures the latency of a tcp-connection
+Filename: tcping_0.3-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4178
+MD5Sum: 7f0a1390d1210c4a2e72518677db8043
+SHA256sum: d1b7c0a78011d95275d27ccf88e7073326c13d3f8e22eedde5cada8ae20b67a2
+
+Package: trojan-plus
+Version: 10.0.3-r2
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Trojan-Plus-Group
+Installed-Size: 890880
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options
+Section: net
+Source: feeds/passwall_packages/trojan-plus
+License: GPL-3.0
+Description: An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+Filename: trojan-plus_10.0.3-r2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 397462
+MD5Sum: b57e81b2ad423ff66b828b7b5e8b1cd2
+SHA256sum: e9f795e94544bb25a1b5e67ecaf5c8b83e1c065b414b3390b2eb5b09860facc9
+
+Package: tuic-client
+Version: 1.0.0-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 1802240
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/tuic-client
+Description: Delicately-TUICed 0-RTT proxy protocol
+Filename: tuic-client_1.0.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 944146
+MD5Sum: 202df5e5417cf0d1f148c2a3fc08c6f4
+SHA256sum: 0548da4d9fa66ff96439167478baff22fc9940b48930dd4b4efc783da488eebf
+
+Package: ucode-mod-lua
+Version: 1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Installed-Size: 30720
+Depends: libc, libucode20230711, liblua5.1.5
+Section: utils
+Source: feeds/luci/contrib/package/ucode-mod-lua
+License: ISC
+Description: ucode to Lua bridge library
+Filename: ucode-mod-lua_1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8436
+MD5Sum: 320f3c49e430f508e6170c68c852b5cd
+SHA256sum: a45933067abfa09484169675b33c2589e5687278e8cfed3a947a9f6f93d50ab4
+
+Package: v2ray-geoip
+Version: 202507310022.1
+Architecture: all
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 20817920
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/v2ray-geodata
+License: CC-BY-SA-4.0
+Description: GeoIP List for V2Ray
+Filename: v2ray-geoip_202507310022.1_all.ipk
+Size: 4626806
+MD5Sum: fc3af87d7995e657ffbc9afe5f1316d4
+SHA256sum: 5a1d7c737ac104587a05a256ba0d56a24937d258d618934ec9eb5e7c4dcbcbff
+
+Package: v2ray-geosite
+Version: 202507302215.1
+Architecture: all
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 9758720
+Depends: libc
+Section: net
+Source: feeds/passwall_packages/v2ray-geodata
+License: MIT
+Description: Geosite List for V2Ray
+Filename: v2ray-geosite_202507302215.1_all.ipk
+Size: 3086314
+MD5Sum: 2b21ad613c8f31882cecb2e43da69e84
+SHA256sum: db8933b47f4cd167ded1b4549308f8f2119848f34ea88809ce38efb810027b1e
+
+Package: v2ray-plugin
+Version: 5.37.0-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: madeye <max.c.lv@gmail.com>
+Installed-Size: 15769600
+Depends: libc, ca-bundle
+Section: net
+Source: feeds/passwall_packages/v2ray-plugin
+License: MIT
+Description: SIP003 plugin for shadowsocks, based on v2ray
+Filename: v2ray-plugin_5.37.0-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5962968
+MD5Sum: d676fd9d53a782758935bae031c1443d
+SHA256sum: 49951e9e9b7e691da07584067df7cfbb56ce59cba57f194df7df55fc3d68c0c7
+
+Package: xray-core
+Version: 25.8.3-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 28108800
+Depends: libc, ca-bundle
+Section: net
+Source: feeds/passwall_packages/xray-core
+License: MPL-2.0
+Description: Xray, Penetrates Everything. It helps you to build your own computer network.
+It secures your network connections and thus protects your privacy.
+Filename: xray-core_25.8.3-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10356586
+MD5Sum: 0dc45fb90b7daf7574eca0085c987ba5
+SHA256sum: 85eb124180cde32948c112a055849d39af118c6be46a2d71d32922d145278aff
+
+Package: xray-plugin
+Version: 1.8.24-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Installed-Size: 18073600
+Depends: libc, ca-bundle
+Section: net
+Source: feeds/passwall_packages/xray-plugin
+License: MIT
+Description: SIP003 plugin for Shadowsocks, based on Xray
+Filename: xray-plugin_1.8.24-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6844274
+MD5Sum: a873e60d572e1f51d6910a36165fe6ae
+SHA256sum: 66660bb7e5d9d0fdf855651c39dcafdf635b2fb88fb4e82a467bcbe06ca282e2
+
+Package: zlib
+Version: 1.3.1-r1
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 81920
+Depends: libc
+Section: libs
+Source: feeds/base/package/libs/zlib
+License: Zlib
+Description: zlib is a lossless data-compression library.
+This package includes the shared library.
+Filename: zlib_1.3.1-r1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 38310
+MD5Sum: 93fc121cc36976b34a514da2d038c7fd
+SHA256sum: b130948d51f94d068de4d7c679c27efc98a5a6bcc94af8ae7f036eca7e2b1de8
