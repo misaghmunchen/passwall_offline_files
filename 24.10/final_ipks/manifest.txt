@@ -1,0 +1,17 @@
+dnsmasq-full_2.90-r4_arm_cortex-a7_neon-vfpv4.ipk
+dos2unix_7.5.2-r1_arm_cortex-a7_neon-vfpv4.ipk
+geoview_0.1.10-r1_arm_cortex-a7_neon-vfpv4.ipk
+kmod-ipt-nat_6.6.93-r1_arm_cortex-a7_neon-vfpv4.ipk
+kmod-nft-socket_6.6.93-r1_arm_cortex-a7_neon-vfpv4.ipk
+kmod-nft-tproxy_6.6.93-r1_arm_cortex-a7_neon-vfpv4.ipk
+libjson-c5_0.18-r1_arm_cortex-a7_neon-vfpv4.ipk
+libopenssl3_3.0.17-r1_arm_cortex-a7_neon-vfpv4.ipk
+libpcre2_10.42-r1_arm_cortex-a7_neon-vfpv4.ipk
+luci-app-passwall2_25.8.22-r1_all.ipk
+tcping_0.3-r1_arm_cortex-a7_neon-vfpv4.ipk
+v2ray-geoip_202507310022.1_all.ipk
+v2ray-geosite_20250627153051-r1_all.ipk
+v2ray-geosite-ir_202506300044-r1_all.ipk
+wget-ssl_1.24.5-r1_arm_cortex-a7_neon-vfpv4.ipk
+xray-core_25.8.3-r1_arm_cortex-a7_neon-vfpv4.ipk
+zlib_1.3.1-r1_arm_cortex-a7_neon-vfpv4.ipk
